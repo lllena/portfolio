@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+}
+.header {
+    min-height: 500px;
+    height: 100%;
+    background-image: url(../img/work.jpg);
+    background-repeat: no-repeat ;
+    background-size: 100%;
+    opacity: 0.85;
+    margin: -16px -10px -10px -10px;
+}
+.navbar {
+    background-color: white;
+    opacity: 0.65;
+}
+.navbar-container {
+    max-width: 55%;
+    width: 100%;
+    margin: auto;
+}
+.list {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    list-style-type: none;
+}
+.list-item {
+    font-family: 'Comfortaa', cursive;
+    font-size: 18px;
+    text-decoration: none;
+    color: #000000;
+}
+.name-container{
+    max-width: 55%;
+    width: 100%;
+    margin: auto;
+}
+.name {
+    text-align: center;
+    padding-top: 150px;
+}
+.name-author {
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    letter-spacing: 8px;
+    color: white;
+}
+.subtitle {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    letter-spacing: 14px;
+    color: rgba(230, 217, 217, 0.877);
+    padding-top: 10px;
+}
+.about {
+    margin-left: -10px;
+    margin-right: -10px;
+    background-color: #f1f1f1;
+    padding: 70px 0;
+}
+.about-container {
+    font-family: 'Comfortaa', cursive;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: auto;
+}
+.about-book {
+    max-width: 454px;
+    flex-shrink: 0;
+}
+.about-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.about-author {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 552px;
+    box-shadow: 0 1px 120px rgba(161, 161, 161, 0.08);
+    border-radius: 10px;
+    border: 1px solid #f3f3f3;
+    background-color: #ffffff;
+    padding: 48px 53px;
+}
+.author-avatar {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 21px;
+}
+.author-name {
+    margin: 0;
+    margin-bottom: 14px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.author-link {
+    font-size: 16px;
+    font-weight: 400; 
+    text-decoration: none;
+    color: inherit;
+}
+.author-text {
+    margin-top: 24px;
+    flex-basis: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.portfolio {
+    font-family: 'Comfortaa', cursive;
+    margin: -10px;
+    background-image: url(../img/background.jpg);
+    opacity: 0.8;
+    background-repeat: no-repeat ;
+    background-size: 100%;
+    padding: 70px 0;
+}
+.portfolio-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}
+.portfolio-title {
+    color: white;
+    font-size: 30px;
+    display: block;
+}
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 0;
+}
+.card {
+    max-width: 22%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10%;
+}
+.card-img {
+   width: 150px;
+   height: 150px;
+   opacity: 1.5;
+}
+.card-text {
+    margin: 15px;
+    text-align: center;
+
+}
+.card-link {
+    text-decoration: none;
+    border: 1px solid rgb(150, 150, 150);
+    padding: 10px;
+    border-radius: 20%;
+}
+.footer {
+    font-family: 'Comfortaa', cursive;
+    margin: -10px;
+    margin-top: 10px;
+    background-color: #f1f1f1;
+}
+.footer-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-title {
+    color: rgb(0, 0, 0);
+    opacity: 0.7;
+    font-size: 30px;
+    display: block;
+    margin: 50px 0 0 0;
+}
+.contacts {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.sociab {
+   
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.communication {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.item {
+
+    max-width: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+.item-img {
+    margin: 7px 7px;
+    width: 30px;
+    height: 30px;
+}
+.item-link {
+    text-decoration: none;
+    color: black;
+}
